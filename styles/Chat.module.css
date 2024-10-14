@@ -1,0 +1,53 @@
+.chatbot {
+  width: 70vw;
+  margin: auto;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.chatbot h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+.username{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.username input{
+  height: 30px;
+  width: 200px;
+  text-indent: 10px;
+}
+
+.chatWindow {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 300px;
+    overflow-y: scroll;
+    margin: 20px;
+  }
+  
+  .messageInput {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+  }
+  
+  .messageInput input {
+    flex: 1;
+    text-indent: 10px;
+  }
+  
+  .messageInput button {
+    background-color: #0070f3;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
